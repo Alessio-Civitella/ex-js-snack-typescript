@@ -29,10 +29,6 @@ const mario: Dipendente = {
 
 console.log(mario);
 
-type DipendenteAzienda = Developer | ProjectManager;
-
-
-
 type Developer = Dipendente & {
   ruolo: "Developer";
   livelloEsperienza: "Junior" | "Mid" | "Senior";
